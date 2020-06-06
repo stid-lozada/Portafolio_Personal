@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #303030;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+.stid {
+  float: right;
+  width: 30%;
+  border-radius: 20%;
+  margin: 20px;
+}
+
+.contenedor {
+  text-align: justify;
+  margin: 20px;
+  position: relative;
+}
+
+section {
+  position: relative;
+}
+
+section h2 {
+  font-size: 30px;
+  margin: 10px;
+  text-align: left;
+}
+
+section ul {
+  list-style: none;
+  font-size: 20px;
+  margin: 10px;
+  display: inline;
+}
+
+#texto-presentacion {
+  font-size: 20px;
+  margin: 10px;
+}
+
+.icon {
+  width: 100px;
+  padding: 10px;
+  position: relative;
+}
+
+.text-nombre {
+  font-size: 40px;
+  padding: 20px;
+}
+
+footer {
+  float: right;
+  padding: 50px;
+}
+
+footer h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+footer .icon {
+  background-color: white;
+  border-radius: 100%;
+  margin: 5px;
+}
+
+@media screen and (max-width: 500px) {
+  header {
+    height: 100px;
+  }
+  main {
+    padding-top: 100px;
+  }
+  main .text-nombre {
+    float: none;
+    display: inline-block;
+    line-height: 0;
+    width: 50%;
+  }
+  main .stid {
+    float: none;
+    width: 70%;
+    margin-left: 15%;
+  }
+  .icon {
+    width: 60px;
+  }
+  footer {
+    display: inline;
+    margin: 0;
+  }
+}
+/*# sourceMappingURL=portafolio_personal.css.map */
